@@ -1,0 +1,16 @@
+img:hover {
+    border: 5px dashed #2b3dff;
+    cursor: pointer;
+}
+#startButton{
+    color: white;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);    
+    border-radius: 100px;
+    height: 50px;
+    width: 100px;
+    font-size: 30px;
+}
+#startbutton:hover{
+    color: #9bc3ff;
+}
