@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body style="width: 100%; background-color: #FA8BFF;
@@ -23,7 +24,7 @@ background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);"
     <h3 style="width: 100%;"><sup>Assim que o pop-up aparecer, clique em Permitir. Depois pode falar o comando.</sup><br><br>Diga "selfie" para tirar sua selfies e fazer colagem.</h3>
     <br>
     <h4>Press start button</h4>
-    <button id="startButton">Start</button>
+    <button id="startButton" onclick="speak1()">Start</button>
     <br><label for="text">Your webcam:</label>
     <div id="camera" style="border: 5px dashed #2BFF88; width: 350px; height: 300px;"></div>
     <h3>Your selfies will appear here:</h3>
@@ -34,5 +35,5 @@ background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);"
     </div>
 </center>
 </body>
-
+<script src="main.js"></script>
 </html>
